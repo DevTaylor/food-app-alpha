@@ -11,6 +11,9 @@
 		09823AAD26AE0C000013FFC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09823AAC26AE0C000013FFC4 /* ContentView.swift */; };
 		09823AAF26AE0C020013FFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09823AAE26AE0C020013FFC4 /* Assets.xcassets */; };
 		09823AB226AE0C020013FFC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09823AB126AE0C020013FFC4 /* Preview Assets.xcassets */; };
+		09A0506C26C5007900E7FD21 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0506B26C5007900E7FD21 /* SavedView.swift */; };
+		09A0506E26C5088800E7FD21 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0506D26C5088800E7FD21 /* AddView.swift */; };
+		09A0507026C51B9D00E7FD21 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0506F26C51B9D00E7FD21 /* SearchBar.swift */; };
 		9F6EBD4C26AE0DA600D6DCC8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EBD4B26AE0DA600D6DCC8 /* ProfileView.swift */; };
 		9F6EBD4E26AE0DB200D6DCC8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EBD4D26AE0DB200D6DCC8 /* SearchView.swift */; };
 		9F6EBD5026AE0DCA00D6DCC8 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EBD4F26AE0DCA00D6DCC8 /* PostView.swift */; };
@@ -24,6 +27,9 @@
 		09823AAE26AE0C020013FFC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09823AB126AE0C020013FFC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09823AB326AE0C020013FFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A0506B26C5007900E7FD21 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		09A0506D26C5088800E7FD21 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		09A0506F26C51B9D00E7FD21 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		9F6EBD4B26AE0DA600D6DCC8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9F6EBD4D26AE0DB200D6DCC8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		9F6EBD4F26AE0DCA00D6DCC8 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
@@ -64,7 +70,10 @@
 				09823AAC26AE0C000013FFC4 /* ContentView.swift */,
 				9F6EBD4B26AE0DA600D6DCC8 /* ProfileView.swift */,
 				9F6EBD5126AE0E0B00D6DCC8 /* TabBarView.swift */,
+				09A0506D26C5088800E7FD21 /* AddView.swift */,
 				9F6EBD4D26AE0DB200D6DCC8 /* SearchView.swift */,
+				09A0506F26C51B9D00E7FD21 /* SearchBar.swift */,
+				09A0506B26C5007900E7FD21 /* SavedView.swift */,
 				9F6EBD4F26AE0DCA00D6DCC8 /* PostView.swift */,
 				09823AAE26AE0C020013FFC4 /* Assets.xcassets */,
 				09823AB326AE0C020013FFC4 /* Info.plist */,
@@ -153,6 +162,9 @@
 				9F6EBD4E26AE0DB200D6DCC8 /* SearchView.swift in Sources */,
 				09823AAD26AE0C000013FFC4 /* ContentView.swift in Sources */,
 				9F6EBD4C26AE0DA600D6DCC8 /* ProfileView.swift in Sources */,
+				09A0506C26C5007900E7FD21 /* SavedView.swift in Sources */,
+				09A0506E26C5088800E7FD21 /* AddView.swift in Sources */,
+				09A0507026C51B9D00E7FD21 /* SearchBar.swift in Sources */,
 				9F6EBD5026AE0DCA00D6DCC8 /* PostView.swift in Sources */,
 				9F6EBD5226AE0E0B00D6DCC8 /* TabBarView.swift in Sources */,
 				09823AAB26AE0C000013FFC4 /* food_app_alphaApp.swift in Sources */,
@@ -285,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"food-app-alpha/Preview Content\"";
+				DEVELOPMENT_TEAM = TQYQKJ3FMD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "food-app-alpha/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -306,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"food-app-alpha/Preview Content\"";
+				DEVELOPMENT_TEAM = TQYQKJ3FMD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "food-app-alpha/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

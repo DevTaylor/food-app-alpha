@@ -10,23 +10,33 @@ import SwiftUI
 struct TabBarView: View {
     var body: some View {
         TabView {
-            ProfileView()
-                .tabItem {
-                    Image(systemName: "person")
-                    Text("Home")
-                }
-            PostView()
-                .tabItem {
-                    Image(systemName: "camera")
-                    Text("Post")
-                }
             SearchView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
-                    Text("Search")
+                }
+            PostView()
+                .tabItem {
+                    Image(systemName: "person.3")
+                }
+            AddView()
+                .tabItem {
+                    Image(systemName: "plus.circle")
+                }
+            SavedView()
+                .tabItem {
+                    Image(systemName: "pin")
+                }
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person.crop.circle")
                 }
             
         }
+        .onAppear() {
+            UITabBar.appearance().barTintColor = .systemBackground
+        }
+        .accentColor(.black)
+        
         
     }
 }
