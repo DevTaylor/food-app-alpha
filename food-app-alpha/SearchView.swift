@@ -49,7 +49,7 @@ struct SearchView: View {
                 
                 
                 // PHOTOS
-                ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/, content: {
+                ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: false, content: {
                     LazyVGrid(
                         columns:
                         [
@@ -76,7 +76,11 @@ struct SearchView: View {
                 {
                     Spacer()
                     
-                    // Card
+                    ZStack {
+                        
+                    }
+                    
+                    // Old Card
                     ZStack
                     {
                         // Card Background
@@ -94,16 +98,18 @@ struct SearchView: View {
                         
                         // Card Content
                         VStack {
+                            
                             // Drag tab pill
-                            Rectangle()
+                            Capsule()
                                 .fill(Color(red: 233/255, green: 233/255, blue: 233/255))
-                                .frame(width: 30, height: 4)
-                                .cornerRadius(10)
+                                .frame(width:50, height: 5)
+                                .padding(.top, 7)
+                                .padding(.bottom, 5)
                                 
                             if showCard
                             {
-                                    
-                                // search bar
+                                
+                                // Search bar
                                 ZStack
                                 {
                                     RoundedRectangle(cornerRadius: 25)

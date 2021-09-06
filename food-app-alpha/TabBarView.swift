@@ -33,7 +33,8 @@ struct TabBarView: View {
             
         }
         .onAppear() {
-            UITabBar.appearance().barTintColor = .systemBackground
+            UITabBar.appearance().barTintColor = UIColor.white
+            UITabBar.appearance().isTranslucent = false
         }
         .accentColor(.black)
         
